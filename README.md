@@ -3,6 +3,17 @@
 This document explains how to build Barrier from source on Linux and create a desktop shortcut with an icon.
 
 ---
+### Install Barrier Dependencies
+
+Before building Barrier, install all required dependencies:
+
+```bash
+sudo apt update
+sudo apt install build-essential cmake git libx11-dev libxtst-dev libxinerama-dev \
+libxkbfile-dev libavahi-compat-libdnssd-dev qtbase5-dev
+sudo apt install libcurl4-openssl-dev make
+```
+
 
 ## 1. Prepare the Source
 
